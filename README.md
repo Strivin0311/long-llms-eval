@@ -420,35 +420,13 @@ Here's a list of current supported long-text dataset(task) infos:
 "CLoT": {
     "dataset_root": "../datasets/CLoT",
     "subtasks / configs": {
-        "PlotPatcher": """
-        Multi-Choice QA: This is a subtask dataset belonging to the MCQA metask in CLoT benchmark, 
-        which asks LLMs to select the right plot sentence from 4 candidates for one of a bunch of storys, 
-        each of which has only one <MASK> place to put the candidate plot sentence
-        """,
-        "NewsCater": """
-        Multi-Choice QA: This is a subtask dataset belonging to the MCQA metask in CLoT benchmark,
-        which asks LLMs to choose the right category that a bunch of news most probably belong to
-        """,
-        "THUCNewsMCQA": """
-        Multi-Choice QA: This is a subtask dataset belonging to the MCQA metask in CLoT benchmark, 
-        which asks LLMs to choose the right category that a long news most probably belongs to
-        """,
-        "MFReader": """
-        Extractive QA: This is a subtask dataset belonging to the ExtQA metask in CLoT benchmark, 
-        which asks to LLMs to retrieve the possible answers corresponding to the questions in the single/multi-documents
-        """,
-        "LongChatter": """
-        Extractive QA: This is a subtask dataset belonging to the ExtQA metask in CLoT benchmark, 
-        which asks to LLMs to retrieve the possible answers corresponding to the questions in a long chat history with specific timestamps 
-        """,
-        "THUCNewsExtQA": """
-        Extractive QA: This is a subtask dataset belonging to the ExtQA metask in CLoT benchmark, which asks to LLMs to retrieve the possible answers corresponding to the questions in a long news 
-        """,
-        "Summer": """
-        Summarization: This is a subtask dataset belonging to the Summ metask in CLoT benchmark, 
-        which asks to LLM to summarize the specific contents from one user or all the users, given a bunch of contents from different users
-        """,
-
+        "PlotPatcher": "Multi-Choice QA: This is a subtask dataset belonging to the MCQA metask in CLoT benchmark, which asks LLMs to select the right plot sentence from 4 candidates for one of a bunch of storys, each of which has only one <MASK> place to put the candidate plot sentence",
+        "NewsCater": "Multi-Choice QA: This is a subtask dataset belonging to the MCQA metask in CLoT benchmark, which asks LLMs to choose the right category that a bunch of news most probably belong to",
+        "THUCNewsMCQA": "Multi-Choice QA: This is a subtask dataset belonging to the MCQA metask in CLoT benchmark, which asks LLMs to choose the right category that a long news most probably belongs to",
+        "MFReader": "Extractive QA: This is a subtask dataset belonging to the ExtQA metask in CLoT benchmark, which asks to LLMs to retrieve the possible answers corresponding to the questions in the single/multi-documents",
+        "LongChatter": "Extractive QA: This is a subtask dataset belonging to the ExtQA metask in CLoT benchmark, which asks to LLMs to retrieve the possible answers corresponding to the questions in a long chat history with specific timestamps",
+        "THUCNewsExtQA": "Extractive QA: This is a subtask dataset belonging to the ExtQA metask in CLoT benchmark, which asks to LLMs to retrieve the possible answers corresponding to the questions in a long news",
+        "Summer": "Summarization: This is a subtask dataset belonging to the Summ metask in CLoT benchmark, which asks to LLM to summarize the specific contents from one user or all the users, given a bunch of contents from different users",
     }
 }
 ```
@@ -606,4 +584,13 @@ Here's a list of current supported aug methods for `base_llama` with its argumen
 
 ## Citation
 
-
+```bibtex
+@misc{huang2023advancing,
+      title={Advancing Transformer Architecture in Long-Context Large Language Models: A Comprehensive Survey}, 
+      author={Yunpeng Huang and Jingwei Xu and Zixu Jiang and Junyu Lai and Zenan Li and Yuan Yao and Taolue Chen and Lijuan Yang and Zhou Xin and Xiaoxing Ma},
+      year={2023},
+      eprint={2311.12351},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
