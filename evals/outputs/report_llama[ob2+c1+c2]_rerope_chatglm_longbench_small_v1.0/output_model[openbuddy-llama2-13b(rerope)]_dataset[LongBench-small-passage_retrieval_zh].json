@@ -1,0 +1,186 @@
+{
+    "model_name": "openbuddy-llama2-13b(rerope)",
+    "dataset_name": "LongBench-small-passage_retrieval_zh",
+    "pred_output": [
+        {
+            "prediction": "段落2\n",
+            "refererence": [
+                "段落27"
+            ],
+            "context_length": 6185,
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "num_samples": 1
+                },
+                "4k~8k": {
+                    "accuracy": 0.0,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "段落2\n",
+            "refererence": [
+                "段落2"
+            ],
+            "context_length": 7186,
+            "score": {
+                "all": {
+                    "accuracy": 1.0,
+                    "num_samples": 1
+                },
+                "4k~8k": {
+                    "accuracy": 1.0,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "段落2\n",
+            "refererence": [
+                "段落15"
+            ],
+            "context_length": 6374,
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "num_samples": 1
+                },
+                "4k~8k": {
+                    "accuracy": 0.0,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "段落1\n",
+            "refererence": [
+                "段落10"
+            ],
+            "context_length": 7483,
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "num_samples": 1
+                },
+                "4k~8k": {
+                    "accuracy": 0.0,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "段落1\n",
+            "refererence": [
+                "段落1"
+            ],
+            "context_length": 6489,
+            "score": {
+                "all": {
+                    "accuracy": 1.0,
+                    "num_samples": 1
+                },
+                "4k~8k": {
+                    "accuracy": 1.0,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "段落2\n",
+            "refererence": [
+                "段落5"
+            ],
+            "context_length": 7069,
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "num_samples": 1
+                },
+                "4k~8k": {
+                    "accuracy": 0.0,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "段落28\n",
+            "refererence": [
+                "段落25"
+            ],
+            "context_length": 6531,
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "num_samples": 1
+                },
+                "4k~8k": {
+                    "accuracy": 0.0,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "段落2\n",
+            "refererence": [
+                "段落5"
+            ],
+            "context_length": 5312,
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "num_samples": 1
+                },
+                "4k~8k": {
+                    "accuracy": 0.0,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "段落1\n",
+            "refererence": [
+                "段落4"
+            ],
+            "context_length": 6091,
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "num_samples": 1
+                },
+                "4k~8k": {
+                    "accuracy": 0.0,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "段落1\n",
+            "refererence": [
+                "段落29"
+            ],
+            "context_length": 5603,
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "num_samples": 1
+                },
+                "4k~8k": {
+                    "accuracy": 0.0,
+                    "num_samples": 1
+                }
+            }
+        }
+    ],
+    "score_output": {
+        "all": {
+            "accuracy": 0.2,
+            "num_samples": 10
+        },
+        "4k~8k": {
+            "accuracy": 0.2,
+            "num_samples": 10
+        }
+    }
+}

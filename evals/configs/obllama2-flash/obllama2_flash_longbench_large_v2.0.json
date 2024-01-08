@@ -1,0 +1,166 @@
+{
+    "register_class": "base_evaluator",
+    "exp_name": "",
+    "model_configs": [
+        {
+            "register_class": "base_llama",
+            "model_name": "openbuddy-llama2(flash-ntk-logn)",
+            "model_path": "/mnt/cfs_bj/big_model/models/openbuddy-llama2-13b-v8.1-fp16",
+            "tokenizer_path": "",
+            "use_cache": "true",
+            "max_prompt_length": 32000,
+            "use_fast_tokenizer": "false",
+            "torch_dtype": "bfloat16",
+            "device_map": "auto",
+            "tensor_parallel": "true",
+            "decode_strategy": "greedy",
+            "aug_method": "ntk",
+            "logn": "true",
+            "training_length": 4096,
+            "dynamic": "false",
+            "flash": "true",
+            "ntk_ratio": 8
+        },
+        {
+            "register_class": "base_llama",
+            "model_name": "openbuddy-llama2(flash-ntk-mix-logn)",
+            "model_path": "/mnt/cfs_bj/big_model/models/openbuddy-llama2-13b-v8.1-fp16",
+            "tokenizer_path": "",
+            "use_cache": "true",
+            "max_prompt_length": 32000,
+            "use_fast_tokenizer": "false",
+            "torch_dtype": "bfloat16",
+            "device_map": "auto",
+            "tensor_parallel": "true",
+            "decode_strategy": "greedy",
+            "aug_method": "ntk-mix",
+            "logn": "true",
+            "training_length": 4096,
+            "dynamic": "false",
+            "flash": "true",
+            "ntk_ratio": 8,
+            "ntk_mix_b": 0.625
+        },
+        {
+            "register_class": "base_llama",
+            "model_name": "openbuddy-llama2(flash-ntk-dlogn)",
+            "model_path": "/mnt/cfs_bj/big_model/models/openbuddy-llama2-13b-v8.1-fp16",
+            "tokenizer_path": "",
+            "use_cache": "true",
+            "max_prompt_length": 32000,
+            "use_fast_tokenizer": "false",
+            "torch_dtype": "bfloat16",
+            "device_map": "auto",
+            "tensor_parallel": "true",
+            "decode_strategy": "greedy",
+            "aug_method": "ntk",
+            "logn": "true",
+            "training_length": 4096,
+            "dynamic": "true",
+            "flash": "true",
+            "ntk_ratio": 8
+        },
+        {
+            "register_class": "base_llama",
+            "model_name": "openbuddy-llama2(flash-ntk-mix-dlogn)",
+            "model_path": "/mnt/cfs_bj/big_model/models/openbuddy-llama2-13b-v8.1-fp16",
+            "tokenizer_path": "",
+            "use_cache": "true",
+            "max_prompt_length": 32000,
+            "use_fast_tokenizer": "false",
+            "torch_dtype": "bfloat16",
+            "device_map": "auto",
+            "tensor_parallel": "true",
+            "decode_strategy": "greedy",
+            "aug_method": "ntk-mix",
+            "logn": "true",
+            "training_length": 4096,
+            "dynamic": "true",
+            "flash": "true",
+            "ntk_ratio": 8,
+            "ntk_mix_b": 0.625
+        }
+    ],
+    "dataset_configs": [
+        {
+            "register_class": "long_bench",
+            "dataset_name": [
+                "LongBench", "multifieldqa_zh"
+            ],
+            "dataset_path": "../datasets/LongBench",
+            "split": "test",
+            "batch_size": 1,
+            "prompt_template": "",
+            "max_new_tokens": 0,
+            "length_splits": [1000, 2000, 4000, 8000, 16000],
+            "metrics": [],
+            "main_metric": "",
+            "split_size": "large",
+            "split_version": "v2.0"
+        },
+        {
+            "register_class": "long_bench",
+            "dataset_name": [
+                "LongBench", "dureader"
+            ],
+            "dataset_path": "../datasets/LongBench",
+            "split": "test",
+            "batch_size": 1,
+            "prompt_template": "",
+            "max_new_tokens": 0,
+            "length_splits": [1000, 2000, 4000, 8000, 16000],
+            "metrics": [],
+            "main_metric": "",
+            "split_size": "large",
+            "split_version": "v2.0"
+        },
+        {
+            "register_class": "long_bench",
+            "dataset_name": [
+                "LongBench", "passage_retrieval_zh"
+            ],
+            "dataset_path": "../datasets/LongBench",
+            "split": "test",
+            "batch_size": 1,
+            "prompt_template": "",
+            "max_new_tokens": 0,
+            "length_splits": [1000, 2000, 4000, 8000, 16000],
+            "metrics": [],
+            "main_metric": "",
+            "split_size": "large",
+            "split_version": "v2.0"
+        },
+        {
+            "register_class": "long_bench",
+            "dataset_name": [
+                "LongBench", "lsht"
+            ],
+            "dataset_path": "../datasets/LongBench",
+            "split": "test",
+            "batch_size": 1,
+            "prompt_template": "",
+            "max_new_tokens": 0,
+            "length_splits": [1000, 2000, 4000, 8000, 16000],
+            "metrics": [],
+            "main_metric": "",
+            "split_size": "large",
+            "split_version": "v2.0"
+        },
+        {
+            "register_class": "long_bench",
+            "dataset_name": [
+                "LongBench", "vcsum"
+            ],
+            "dataset_path": "../datasets/LongBench",
+            "split": "test",
+            "batch_size": 1,
+            "prompt_template": "",
+            "max_new_tokens": 0,
+            "length_splits": [1000, 2000, 4000, 8000, 16000],
+            "metrics": [],
+            "main_metric": "",
+            "split_size": "large",
+            "split_version": "v2.0"
+        }
+    ]
+}

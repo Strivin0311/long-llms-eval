@@ -1,0 +1,82 @@
+{
+    "register_class": "base_evaluator",
+    "exp_name": "",
+    "model_configs": [
+        {
+            "register_class": "base_chatglm",
+            "model_name": "chatglm2-6b-32k",
+            "model_path": "/mnt/cfs_bj/big_model/models/chatglm2-6b-32k",
+            "tokenizer_path": "",
+            "use_fast_tokenizer": "false",
+            "torch_dtype": "bfloat16",
+            "decode_strategy": "greedy",
+            "aug_method": ""
+        },
+        {
+            "register_class": "base_llama",
+            "model_name": "obllama2(rerope)",
+            "model_path": "/mnt/cfs_bj/big_model/models/openbuddy-llama2-13b-v8.1-fp16",
+            "tokenizer_path": "",
+            "use_cache": "true",
+            "max_prompt_length": 24000,
+            "use_fast_tokenizer": "false",
+            "torch_dtype": "bfloat16",
+            "device_map": "auto",
+            "tensor_parallel": "true",
+            "decode_strategy": "greedy",
+            "aug_method": "rerope",
+            "logn": "true",
+            "rerope_window": 512,
+            "rerope_length": 4096
+        },
+        {
+            "register_class": "base_llama",
+            "model_name": "obllama2(flash-ntk-logn)",
+            "model_path": "/mnt/cfs_bj/big_model/models/openbuddy-llama2-13b-v8.1-fp16",
+            "tokenizer_path": "",
+            "use_cache": "true",
+            "max_prompt_length": 32000,
+            "use_fast_tokenizer": "false",
+            "torch_dtype": "bfloat16",
+            "device_map": "auto",
+            "tensor_parallel": "true",
+            "decode_strategy": "greedy",
+            "aug_method": "ntk",
+            "logn": "true",
+            "training_length": 4096,
+            "dynamic": "false",
+            "flash": "true",
+            "ntk_ratio": 8
+        }
+    ],
+    "dataset_configs": [
+        {
+            "register_class": "clot",
+            "dataset_name": [
+                "CLoT", "MFReader"
+            ],
+            "dataset_path": "../datasets/CLoT",
+            "split": "dev",
+            "batch_size": 1,
+            "prompt_template": "",
+            "max_new_tokens": 0,
+            "length_splits": [1000, 2000, 4000, 8000, 16000],
+            "metrics": [],
+            "main_metric": ""
+        },
+        {
+            "register_class": "clot",
+            "dataset_name": [
+                "CLoT", "LongChatter"
+            ],
+            "dataset_path": "../datasets/CLoT",
+            "split": "dev",
+            "batch_size": 1,
+            "prompt_template": "",
+            "max_new_tokens": 0,
+            "length_splits": [1000, 2000, 4000, 8000, 16000],
+            "metrics": [],
+            "main_metric": ""
+        }
+    ]
+}

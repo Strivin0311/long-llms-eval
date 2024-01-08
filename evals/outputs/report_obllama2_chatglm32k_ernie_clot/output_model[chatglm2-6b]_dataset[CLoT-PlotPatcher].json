@@ -1,0 +1,543 @@
+{
+    "model_name": "chatglm2-6b",
+    "dataset_name": "CLoT-PlotPatcher",
+    "pred_output": [
+        {
+            "prediction": "[C]",
+            "reference": [
+                "D"
+            ],
+            "prompt_length": 2752,
+            "speed": 0.0006134301270417422,
+            "base": "senpos",
+            "difficulty": "normal",
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "speed": 0.0006134301270417422,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "[A]",
+            "reference": [
+                "C"
+            ],
+            "prompt_length": 2915,
+            "speed": 7.196710075394105e-05,
+            "base": "senpos",
+            "difficulty": "easy",
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "speed": 7.196710075394105e-05,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "B",
+            "reference": [
+                "C"
+            ],
+            "prompt_length": 4396,
+            "speed": 5.6856947919035704e-05,
+            "base": "senpos",
+            "difficulty": "easy",
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "speed": 5.6856947919035704e-05,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "[D] 他在牛蝇掉以轻心的时候果断出手，一巴掌把牛蝇拍死了。",
+            "reference": [
+                "B"
+            ],
+            "prompt_length": 2316,
+            "speed": 0.00026427962489343563,
+            "base": "clozet",
+            "difficulty": "easy",
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "speed": 0.00026427962489343563,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "[B] 巫术的玄妙，让混沌之气不断的冲刷着温小天的骨骼。",
+            "reference": [
+                "B"
+            ],
+            "prompt_length": 5419,
+            "speed": 0.00013952634477694143,
+            "base": "senpos",
+            "difficulty": "normal",
+            "score": {
+                "all": {
+                    "accuracy": 1.0,
+                    "speed": 0.00013952634477694143,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "[D] 表面看这五个苹果与别的苹果无异，但仔细观察，便可看出它们",
+            "reference": [
+                "C"
+            ],
+            "prompt_length": 4344,
+            "speed": 0.00021937842778793417,
+            "base": "senpos",
+            "difficulty": "normal",
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "speed": 0.00021937842778793417,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "[B] 孤儿院倒塌的范围很广，没有一处完好，情况最好的一处就是厅",
+            "reference": [
+                "D"
+            ],
+            "prompt_length": 5766,
+            "speed": 0.0003173508106243532,
+            "base": "senpos",
+            "difficulty": "easy",
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "speed": 0.0003173508106243532,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "[B]",
+            "reference": [
+                "D"
+            ],
+            "prompt_length": 5264,
+            "speed": 6.455287640022784e-05,
+            "base": "senpos",
+            "difficulty": "easy",
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "speed": 6.455287640022784e-05,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "[C] 葫芦被丢进小河后，很快就沉没了，没多大会儿的功夫，葫芦沉",
+            "reference": [
+                "C"
+            ],
+            "prompt_length": 1443,
+            "speed": 0.0005084745762711864,
+            "base": "senpos",
+            "difficulty": "normal",
+            "score": {
+                "all": {
+                    "accuracy": 1.0,
+                    "speed": 0.0005084745762711864,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "[A] 第一章认识篇13由于这出话剧的反响不够理想，剧团后来移到",
+            "reference": [
+                "B"
+            ],
+            "prompt_length": 8335,
+            "speed": 0.0002509860164933668,
+            "base": "senpos",
+            "difficulty": "easy",
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "speed": 0.0002509860164933668,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "[B]",
+            "reference": [
+                "A"
+            ],
+            "prompt_length": 2867,
+            "speed": 8.013937282229966e-05,
+            "base": "senpos",
+            "difficulty": "easy",
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "speed": 8.013937282229966e-05,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "[B] 那会表明他逮不顾及他人，而巴宾顿先生体谅他人的性格给我很",
+            "reference": [
+                "D"
+            ],
+            "prompt_length": 8009,
+            "speed": 0.00013306802636488,
+            "base": "senpos",
+            "difficulty": "normal",
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "speed": 0.00013306802636488,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "[A] 熊“市长”明显停了一停，看清是两个醉汉之后，他有些嫌恶地",
+            "reference": [
+                "A"
+            ],
+            "prompt_length": 1553,
+            "speed": 0.0004668769716088328,
+            "base": "senpos",
+            "difficulty": "easy",
+            "score": {
+                "all": {
+                    "accuracy": 1.0,
+                    "speed": 0.0004668769716088328,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "[D]",
+            "reference": [
+                "C"
+            ],
+            "prompt_length": 7240,
+            "speed": 6.212895209167472e-05,
+            "base": "senpos",
+            "difficulty": "easy",
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "speed": 6.212895209167472e-05,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "答案是[C]。",
+            "reference": [
+                "A"
+            ],
+            "prompt_length": 1414,
+            "speed": 0.00014074595355383535,
+            "base": "senpos",
+            "difficulty": "hard",
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "speed": 0.00014074595355383535,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "[C]",
+            "reference": [
+                "D"
+            ],
+            "prompt_length": 5474,
+            "speed": 6.20777798064634e-05,
+            "base": "senpos",
+            "difficulty": "easy",
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "speed": 6.20777798064634e-05,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "[A] 可就在他大笑之时，伴随着“咔嚓”一声，窗户碎成无数小块，",
+            "reference": [
+                "C"
+            ],
+            "prompt_length": 6913,
+            "speed": 0.00017566594672426206,
+            "base": "senpos",
+            "difficulty": "normal",
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "speed": 0.00017566594672426206,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "[C]忽然身后的薛红拉了拉苏锦霜，“锦霜，那里有动静。在房间窗台",
+            "reference": [
+                "B"
+            ],
+            "prompt_length": 4182,
+            "speed": 0.0002064546748932131,
+            "base": "senpos",
+            "difficulty": "easy",
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "speed": 0.0002064546748932131,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "[B] 等大木跑到那个门口时，那个男子大概消失了六七秒钟，拉开这",
+            "reference": [
+                "D"
+            ],
+            "prompt_length": 1475,
+            "speed": 0.0005374917053749171,
+            "base": "senpos",
+            "difficulty": "normal",
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "speed": 0.0005374917053749171,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "[C]",
+            "reference": [
+                "B"
+            ],
+            "prompt_length": 5519,
+            "speed": 6.338283230713509e-05,
+            "base": "senpos",
+            "difficulty": "easy",
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "speed": 6.338283230713509e-05,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "[D]",
+            "reference": [
+                "C"
+            ],
+            "prompt_length": 4534,
+            "speed": 6.612298875909191e-05,
+            "base": "senpos",
+            "difficulty": "easy",
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "speed": 6.612298875909191e-05,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "[B] 他发怒了，她也气了，于是，她就把他杀了。因为她本没打算杀",
+            "reference": [
+                "A"
+            ],
+            "prompt_length": 2826,
+            "speed": 0.00033939818054583623,
+            "base": "senpos",
+            "difficulty": "easy",
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "speed": 0.00033939818054583623,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "[D]",
+            "reference": [
+                "B"
+            ],
+            "prompt_length": 6914,
+            "speed": 6.216567876246928e-05,
+            "base": "senpos",
+            "difficulty": "easy",
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "speed": 6.216567876246928e-05,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "[C]",
+            "reference": [
+                "D"
+            ],
+            "prompt_length": 5209,
+            "speed": 6.523407521105142e-05,
+            "base": "senpos",
+            "difficulty": "easy",
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "speed": 6.523407521105142e-05,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "[D] 蓦地，那熟悉的身影使她豁然开朗，她终于看清楚并认准了他是",
+            "reference": [
+                "A"
+            ],
+            "prompt_length": 6636,
+            "speed": 0.00014397120575884823,
+            "base": "senpos",
+            "difficulty": "normal",
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "speed": 0.00014397120575884823,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "[C]",
+            "reference": [
+                "A"
+            ],
+            "prompt_length": 1497,
+            "speed": 0.00011333333333333334,
+            "base": "senpos",
+            "difficulty": "easy",
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "speed": 0.00011333333333333334,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "[D]",
+            "reference": [
+                "A"
+            ],
+            "prompt_length": 4031,
+            "speed": 6.693108577094696e-05,
+            "base": "senpos",
+            "difficulty": "easy",
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "speed": 6.693108577094696e-05,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "[C] 他突然又来，敲着大门大喊大叫着要见小姐。",
+            "reference": [
+                "A"
+            ],
+            "prompt_length": 8814,
+            "speed": 0.00010975333785924417,
+            "base": "senpos",
+            "difficulty": "easy",
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "speed": 0.00010975333785924417,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "[B] 博尔科吓了一跳，不过很快他就平静下来，因为他看到那只不过",
+            "reference": [
+                "A"
+            ],
+            "prompt_length": 6009,
+            "speed": 0.0002102300943552392,
+            "base": "senpos",
+            "difficulty": "easy",
+            "score": {
+                "all": {
+                    "accuracy": 0.0,
+                    "speed": 0.0002102300943552392,
+                    "num_samples": 1
+                }
+            }
+        },
+        {
+            "prediction": "[A] 跟女儿一商量，女儿也同意。",
+            "reference": [
+                "A"
+            ],
+            "prompt_length": 7199,
+            "speed": 9.562084257206207e-05,
+            "base": "senpos",
+            "difficulty": "normal",
+            "score": {
+                "all": {
+                    "accuracy": 1.0,
+                    "speed": 9.562084257206207e-05,
+                    "num_samples": 1
+                }
+            }
+        }
+    ],
+    "score_output": {
+        "all": {
+            "accuracy": 0.13,
+            "speed": 0.00015635578876100205,
+            "num_samples": 30
+        },
+        "1k~2k": {
+            "accuracy": 0.4,
+            "speed": 0.0003565705128205128,
+            "num_samples": 5
+        },
+        "2k~4k": {
+            "accuracy": 0.0,
+            "speed": 0.0002706044955262966,
+            "num_samples": 5
+        },
+        "4k~8k": {
+            "accuracy": 0.12,
+            "speed": 0.00012212651215494537,
+            "num_samples": 17
+        },
+        "8k~16k": {
+            "accuracy": 0.0,
+            "speed": 0.00016398637407906202,
+            "num_samples": 3
+        }
+    }
+}
