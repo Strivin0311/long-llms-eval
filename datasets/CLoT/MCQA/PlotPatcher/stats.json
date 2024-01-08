@@ -1,0 +1,79 @@
+{
+    "num_samples": {
+        "train": 968,
+        "val": 177,
+        "test": 131,
+        "dev": 30,
+        "all": 1306
+    },
+    "percent_samples": {
+        "train": 0.74,
+        "val": 0.14,
+        "test": 0.1,
+        "dev": 0.02,
+        "all": 1.0
+    },
+    "avg_len": {
+        "train": 4805,
+        "val": 4768,
+        "test": 4475,
+        "dev": 4708,
+        "all": 4765
+    },
+    "min_len": {
+        "train": 1008,
+        "val": 1307,
+        "test": 1324,
+        "dev": 1414,
+        "all": 1008
+    },
+    "max_len": {
+        "train": 8935,
+        "val": 8739,
+        "test": 9088,
+        "dev": 8814,
+        "all": 9088
+    },
+    "<1k": {
+        "train": 0,
+        "val": 0,
+        "test": 0,
+        "dev": 0,
+        "all": 0
+    },
+    "1k~2k": {
+        "train": 161,
+        "val": 31,
+        "test": 28,
+        "dev": 5,
+        "all": 225
+    },
+    "2k~4k": {
+        "train": 189,
+        "val": 35,
+        "test": 28,
+        "dev": 5,
+        "all": 257
+    },
+    "4k~8k": {
+        "train": 508,
+        "val": 91,
+        "test": 63,
+        "dev": 17,
+        "all": 679
+    },
+    "8k~16k": {
+        "train": 110,
+        "val": 20,
+        "test": 12,
+        "dev": 3,
+        "all": 145
+    },
+    "16k+": {
+        "train": 0,
+        "val": 0,
+        "test": 0,
+        "dev": 0,
+        "all": 0
+    }
+}
