@@ -5,7 +5,7 @@
         {
             "register_class": "base_chatglm",
             "model_name": "chatglm-6b",
-            "model_path": "/mnt/cfs_bj/big_model/models/THUDM-chatglm-6b",
+            "model_path": "THUDM/chatglm-6b",
             "tokenizer_path": "",
             "use_cache": "true",
             "use_fast_tokenizer": "true",
@@ -19,7 +19,7 @@
         {
             "register_class": "base_chatglm",
             "model_name": "chatglm2-6b",
-            "model_path": "/mnt/cfs_bj/big_model/models/chatglm2-6b",
+            "model_path": "THUDM/chatglm2-6b",
             "tokenizer_path": "",
             "use_cache": "true",
             "use_fast_tokenizer": "true",
@@ -33,7 +33,7 @@
         {
             "register_class": "base_chatglm",
             "model_name": "chatglm2-6b-32k",
-            "model_path": "/mnt/cfs_bj/big_model/models/chatglm2-6b-32k",
+            "model_path": "THUDM/chatglm2-6b-32k",
             "tokenizer_path": "",
             "use_cache": "true",
             "use_fast_tokenizer": "true",

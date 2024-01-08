@@ -5,7 +5,7 @@
         {
             "register_class": "base_llama",
             "model_name": "openbuddy-llama2(flash-ntk-logn)",
-            "model_path": "/mnt/cfs_bj/big_model/models/openbuddy-llama2-13b-v8.1-fp16",
+            "model_path": "OpenBuddy/openbuddy-llama2-13b",
             "tokenizer_path": "",
             "use_cache": "true",
             "max_prompt_length": 32000,
@@ -24,7 +24,7 @@
         {
             "register_class": "base_llama",
             "model_name": "openbuddy-llama2(flash-ntk-mix-logn)",
-            "model_path": "/mnt/cfs_bj/big_model/models/openbuddy-llama2-13b-v8.1-fp16",
+            "model_path": "OpenBuddy/openbuddy-llama2-13b",
             "tokenizer_path": "",
             "use_cache": "true",
             "max_prompt_length": 32000,
@@ -44,7 +44,7 @@
         {
             "register_class": "base_llama",
             "model_name": "openbuddy-llama2(flash-ntk-dlogn)",
-            "model_path": "/mnt/cfs_bj/big_model/models/openbuddy-llama2-13b-v8.1-fp16",
+            "model_path": "OpenBuddy/openbuddy-llama2-13b",
             "tokenizer_path": "",
             "use_cache": "true",
             "max_prompt_length": 32000,
@@ -63,7 +63,7 @@
         {
             "register_class": "base_llama",
             "model_name": "openbuddy-llama2(flash-ntk-mix-dlogn)",
-            "model_path": "/mnt/cfs_bj/big_model/models/openbuddy-llama2-13b-v8.1-fp16",
+            "model_path": "OpenBuddy/openbuddy-llama2-13b",
             "tokenizer_path": "",
             "use_cache": "true",
             "max_prompt_length": 32000,

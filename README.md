@@ -470,15 +470,14 @@ Here're several statistics histgrams for CLoT and each subtasks:
    }
 }
 ```
-where `split_version` can be choose from: 
-* `v1.0`: for the original sampling split sizes as below
+where `split_version` can be choose from: (*v1.0 is deprecated*)
 * `v2.0`: for the latest sampling split sizes, details as below
 
 where `split_size` can choose from:
-* `debug`: for `v1.0` it was just randomly choosen 1 sample from each subtask, while for `v2.0`, the samples have length limit ranging from 1k~20k
-* `small`: for `v1.0` it was just randomly choosen 10 samples from each subtask, while for `v2.0`, the samples have length limit ranging from 1k~20k
-* `medium`: for `v1.0` it was just randomly choosen 50 samples from each subtask, while for `v2.0`, the samples have length limit ranging from 1k~20k
-* `large`: for `v1.0` it was just the original dataset with 200 samples for each subtask, while for `v2.0`, it was randomly choosen 100 samples from each subtask with length limit ranging from 1k~20k
+* `debug`: for `v2.0` it was just randomly choosen 1 sample from each subtask with length limit ranging from 1k~20k
+* `small`: for `v2.0` it was just randomly choosen 10 samples from each subtask with length limit ranging from 1k~20k
+* `medium`: for `v2.0` it was just randomly choosen 50 samples from each subtask with length limit ranging from 1k~20k
+* `large`: for `v2.0` it was just randomly choosen 100 samples from each subtask with length limit ranging from 1k~20k
 
 *Note: you can set `split_version` and `split_size` as the addtional config in the dataset config for `LongBench`*
 
